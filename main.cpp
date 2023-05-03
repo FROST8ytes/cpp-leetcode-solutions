@@ -11,7 +11,7 @@ int main() {
     };
 
     for (const auto& test: testCases) {
-        assert(TwoSum::twoSumBruteForce(test.nums, test.target) == test.expected);
+        assert(TwoSum::twoSumHashTable(test.nums, test.target) == test.expected);
     }
     return 0;
 }
